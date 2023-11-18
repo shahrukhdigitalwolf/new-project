@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
-<body>
+<body id="container">
     <div class="header">
         <div class="d-flex justify-content-between">
             <a href="#">
@@ -28,31 +28,95 @@
             <div class="offcanvas-body">
                 <div class="row">
                     <div class="col-lg-8 d-lg-block d-none" style="height: 100vh; background-color: black;">
-                        <h1 class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, pariatur iste. A iusto reiciendis pariatur nam? Fugiat, culpa? Autem distinctio explicabo itaque voluptatum accusamus deserunt harum nisi iure ullam excepturi?</h1>
+                        <div class="row">
+                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6 p-3">
+                                <div class="p-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="text-light mb-0">READ OUR BLOG</h5>
+                                    <a href="#">
+                                        <button class="btn-class-name">
+                                            <span>Explore More</span>
+                                        </button>
+                                    </a>
+                                </div>
+                                <ul class="ps-1" style="height: 70vh; padding-bottom: 20px; overflow-y: scroll;">
+                                    <li>
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="./assets/img/projects/textMen.png" class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Card titleCard titleCard titleCard title</h5>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated : 26 June 2023</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="./assets/img/projects/textMen.png" class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated : 26 Mar 2023</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="./assets/img/projects/textMen.png" class="img-fluid rounded-start" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated : 07 April 2023</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-4">
-                        <ul class="nav-bar">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">
-                                    <b>A</b>nimation Course
-                                </a>
-                            </li>
-                            <li  class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <b>V</b>FX Course
-                                </a>   
-                            </li>
-                            <li  class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <b>G</b>raphic Design
-                                </a>                               
-                            </li>
-                            <li  class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <b>W</b>eb Design
-                                </a>                               
-                            </li>                       
-                        </ul>
+                        <div class="Text svelte-mtggno">
+                            <a href="animation-course.html">
+                                <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Animation Course</h3>
+                            </a>
+                            <a href="vfx-course.html">
+                                <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Vfx Course</h3>
+                            </a>
+                            <a href="#">
+                                <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Graphics Design Course</h3>
+                            </a>
+                            <a href="#">
+                                <h3 role="presentation" class="heading1 svelte-mtggno" style="cursor: pointer;">Web Design Course</h3> 
+                            </a>
+                            <hr class="hr-css svelte-mtggno"> 
+                            <div>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Technical Creators </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Advertisers &amp; Brands </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Investors </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Team </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Careers </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">FAQs </p>
+                                <p role="presentation" class="svelte-mtggno" style="cursor: pointer; width: fit-content;">Token Sale </p>
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,7 +167,7 @@
                             <a class="btn1" href="#">Get Early Access</a>
                         </div>
                     </div>
-                    <div class="p-3">
+                    <div class="pe-3">
                         <p class="text-end text-light d-none d-lg-block">Scroll <i class="fas fa-long-arrow-alt-right"></i></p>
                     </div>
                 </div>
@@ -189,21 +253,136 @@
                 </div>
             </div>
         </section>
-        <section>
-            <img class="img-fluid" src="./assets/img/projects/mauro-lima-m3wpot6fsw0-unsplash.jpg" alt="">
-        </section>
-        <section>
-            <img class="img-fluid" src="./assets/img/projects/mauro-lima-m3wpot6fsw0-unsplash.jpg" alt="">
-        </section>
-        <section>
-            <img class="img-fluid" src="./assets/img/projects/mauro-lima-m3wpot6fsw0-unsplash.jpg" alt="">
-        </section>
-        <section>
-            <img class="img-fluid" src="./assets/img/projects/mauro-lima-m3wpot6fsw0-unsplash.jpg" alt="">
-        </section>
-        <section>
-            <img class="img-fluid" src="./assets/img/projects/mauro-lima-m3wpot6fsw0-unsplash.jpg" alt="">
-        </section>
+      <div class="about_sec">
+            <div class="about-heading_div">
+                <h4 class="about-heading">About Us</h4>
+            </div>
+            <div class="about-us-inner">
+                <div class="about1">
+                    <div class="about1-inner">
+                        <div class="about1-text">
+                            <h6 class="svelte-82o4ya">About</h6>
+                            <h2 style="font-weight: 900;">Moople Institute</h2>
+                            <p class="about1-bottom-text">
+                                Moople has a line of premiere educational institutions across India offering certificate courses in Animation, Graphics, Motion Graphics, Web design, VFX, and Special Effects. We also have our state-of-the-art production facilities in Kolkata under the name Hi-Tech Animation - the largest Animation production house in eastern India.
+                            </p>
+                            <p class="about1-bottom-text">
+                                Moople (operating under the legal entity Moople Academy Pvt. Ltd.) is the pioneer in redefining the concept of multimedia education through its 15+ centres of excellence across India and still growing. Thanks to the distinguished model of hands-on learning, live production house experience, internships and strong focus on global engagement, our students have created a vibrant reputation in the market with extremely high employability rate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom svelte-4nrwa2">
+                    <div class="description svelte-4nrwa2">
+                        <div class="svelte-4nrwa2">
+                            <h1 class="svelte-4nrwa2">Story</h1>
+                            <p class="description-para svelte-4nrwa2" style="padding-top: 3vh;">
+                                NLP trained to extract features from any
+                                <span class="svelte-4nrwa2">literary style</span> in English.
+                            </p>
+                            <p class="description-para2 svelte-4nrwa2">Thereʼs no special syntax to learn.</p>
+                        </div>
+                        <div class="img-wrraper svelte-4nrwa2">
+                            <img src="./assets/img/projects/scriptText.png" alt="script" height="100%" width="100%">
+                        </div>
+                    </div>
+                    <div class="description2 svelte-4nrwa2">
+                        <div class="description2-content svelte-4nrwa2">
+                            <h1 class="svelte-4nrwa2 mt-3 mb-3">Opus</h1>
+                            <p class="description2-para svelte-4nrwa2" style="padding-top: 0.5vh;">
+                                <span class="svelte-4nrwa2">Text to Video</span> generation using AI.
+                            </p>
+                            <p class="description2-para2 svelte-4nrwa2">
+                                <span class="svelte-4nrwa2">Computational Production</span>- everything from scenes, assets, characters, dialogue and visual effects.
+                            </p>
+                        </div>
+                        <div class="img-wrraper svelte-4nrwa2">
+                            <img src="./assets/img/projects/textMen.png" alt="textmen" height="100%" width="100%">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="about2">
+                    <div class="about2-inner">
+                        <div class="about2-text">
+                            <h2 style="font-weight: 900;">About Moople Institute</h2>
+                            <p class="about2-bottom-text">
+                                Moople has a line of premiere educational institutions across India offering certificate courses in Animation, Graphics, Motion Graphics, Web design, VFX, and Special Effects. We also have our state-of-the-art production facilities in Kolkata under the name Hi-Tech Animation - the largest Animation production house in eastern India.
+                            </p>
+                            <p class="about2-bottom-text">
+                                Moople (operating under the legal entity Moople Academy Pvt. Ltd.) is the pioneer in redefining the concept of multimedia education through its 15+ centres of excellence across India and still growing. Thanks to the distinguished model of hands-on learning, live production house experience, internships and strong focus on global engagement, our students have created a vibrant reputation in the market with extremely high employability rate.
+                            </p>
+                            <p class="about2-bottom-text">
+                                Moople offers both certificate and degree courses to its students. Through collaboration with reputed colleges, Moople teaches degree courses in both Animation and VFX keeping one goal in mind - teaching industry relevant curriculum to students ensuring they become employable at the end of the course.
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="director">
+            <div class="heading-div">
+                <h4 class="heading">Directors</h4>
+            </div>
+            <div class="img-section">
+                <div class="img-div">
+                    <div class="img-css">
+                        <img src="./assets/img/projects/patrick-hawlik-dklx0BQlLzQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text-div svelte-1g8ul19">
+                        <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">01</p>
+                        </div> <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">Lighting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-div">
+                    <div class="img-css">
+                        <img src="./assets/img/projects/patrick-hawlik-dklx0BQlLzQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text-div svelte-1g8ul19">
+                        <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">02</p>
+                        </div> <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">Lighting</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-div">
+                    <div class="img-css">
+                        <img src="./assets/img/projects/patrick-hawlik-dklx0BQlLzQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text-div svelte-1g8ul19">
+                        <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">02</p>
+                        </div> <div class="number svelte-1g8ul19">
+                            <p class="svelte-1g8ul19">Lighting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  <div class="last-section">
+            <div class="keep">
+                <p>KEEP UP TO DATE</p>
+            </div>
+            <div class="community">
+                <h4>The latest from <br>
+                    Opus community
+                </h4>
+            </div>
+            <div class="gif-div">
+                <div class="gif-img">
+                    <img class="img-fluid" src="./assets/img/projects/graphics.png" alt="">
+                </div>
+                <div class="gif-img">
+                    <img class="img-fluid" src="./assets/img/projects/graphics.png" alt="">
+                </div>
+                <div class="gif-img">
+                    <img class="img-fluid" src="./assets/img/projects/graphics.png" alt="">
+                </div>
+            </div>
+        </div>  -->
     </div>
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
