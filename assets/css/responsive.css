@@ -823,3 +823,259 @@
         width: auto;
     }
 }
+
+@media only screen and (min-width:0px) and (max-width: 767px){
+    section.svelte-t6snpj {
+        display: block;
+    }
+    .main-div.svelte-3gq7x.svelte-3gq7x{
+        display: block;
+    }
+    .first-div.svelte-3gq7x.svelte-3gq7x{
+        width: 100%;
+        height: 70vh;
+    }
+    .svg-img-Wrapper.svelte-3gq7x.svelte-3gq7x{
+        position: relative;
+        bottom: 48vh;
+        left: 10vh;
+        right: auto;
+        top: auto;
+        width: 100%;
+        height: auto;
+    }
+    .text-heading1.svelte-45gpx5{
+        font-size: 11.545vh;
+        line-height: 13.564vh;
+        width: 61vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+    }
+    .welcome-Img.svelte-3gq7x.svelte-3gq7x{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+    .before-img.svelte-3gq7x.svelte-3gq7x{
+        display: none;
+    }
+    .description-text.svelte-3gq7x.svelte-3gq7x{
+        position: relative;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    .second-div.svelte-3gq7x.svelte-3gq7x{
+        width: 100%;
+        height: 50vh;
+    }
+    .number-div.svelte-3gq7x.svelte-3gq7x {
+        font-size: 39.556vh;
+        line-height: 35.556vh;
+        right: 4vh;
+        left: auto;
+        top: -2.685vh;
+    }
+    .virtual-head.svelte-3gq7x.svelte-3gq7x {
+        font-weight: 900;
+        font-size: 14.556vw;
+        line-height: 14.556vw;
+        position: absolute;
+        left: 4.126vh;
+        top: 13.926vh;
+    }
+    .main-div.svelte-usfctj.svelte-usfctj{
+        display: block;
+        padding: 10px;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    .left-div.svelte-usfctj.svelte-usfctj {
+        width: 100%;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    .left-div-img.svelte-usfctj.svelte-usfctj {
+        width: 100%;
+    }
+    .right-div.svelte-usfctj.svelte-usfctj {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    .number-div.svelte-usfctj.svelte-usfctj {
+        font-size: 40.556vh;
+        line-height: 30.556vh;
+        left: 0;
+        top: 0;
+    }
+    .virtual-head.svelte-usfctj.svelte-usfctj{
+        position: relative;
+        left: 0;
+        top: 15.926vh;
+        font-size: 4vh;
+    }
+    .description-text.svelte-usfctj.svelte-usfctj{
+        position: relative;
+        left: 0.926vh;
+        top: 18.685vh;
+        width: 100%;
+    }
+    .button.svelte-usfctj.svelte-usfctj {
+        position: relative;
+        transform: translate(-50%, 10px);
+        left: 50%;
+        top: 140px;
+    }
+    .main-div.svelte-41dkzr.svelte-41dkzr{
+        display: block;
+        height: auto;
+        overflow: hidden;
+    }
+    .left-div.svelte-41dkzr.svelte-41dkzr{
+        display: none;
+    }
+    .right-div.svelte-41dkzr.svelte-41dkzr{
+        height: auto;
+        width: 100%;
+        filter: grayscale(0);
+    }
+    .number-div.svelte-41dkzr.svelte-41dkzr{
+        font-size: 46.556vh;
+        color: #f4eeec;
+        font-weight: 700;
+        position: relative;
+        left: 12vh;
+        opacity: 50%;
+        top: -18.167vh;
+    }
+    .text1.svelte-41dkzr.svelte-41dkzr {
+        width: 100%;
+        font-size: 3.556vh;
+        line-height: 5.556vh;
+        color: #000;
+        font-weight: 900;
+        position: relative;
+        left: 0;
+        top: -61vh;
+        padding: 8px;
+    }
+    .text2-div.svelte-41dkzr.svelte-41dkzr {
+        width: 96%;
+        height: auto;
+        background-color: #ffc1347d;
+        position: absolute;
+        top: 35vh;
+        left: 8px;
+        padding: 3vh;
+        opacity: 1;
+    }
+    .button.svelte-41dkzr.svelte-41dkzr {
+        position: absolute;
+        top: 80.722vh;
+        left: 17.815vh;
+    }
+    .main-div.svelte-1mx09j6.svelte-1mx09j6{
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 0px 10px 5px;
+    }
+    .image.svelte-1mx09j6.svelte-1mx09j6{
+        position: relative;
+        left: 0;
+        max-width: 100%;
+        width: 300px;
+    }
+    .number-div.svelte-1mx09j6.svelte-1mx09j6{
+        font-size: 35.556vh;
+        color: #f4eeec;
+        font-weight: 700;
+        position: absolute;
+        left: 22vh;
+        top: -6vh;
+        opacity: 50%;
+        line-height: 38.556vh;
+    }
+    .virtual-head.svelte-1mx09j6.svelte-1mx09j6 {
+        font-weight: 700;
+        font-size: 5.556vh;
+        line-height: 5.556vh;
+        text-transform: uppercase;
+        color: #000;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .virtual-head.svelte-1mx09j6.svelte-1mx09j6 {
+        font-weight: 700;
+        font-size: 3.856vh;
+        line-height: 4.556vh;
+        text-transform: uppercase;
+        color: #000;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .text2-div.svelte-1mx09j6 p.svelte-1mx09j6 {
+        font-size: 1.852vh;
+        font-weight: 400;
+        line-height: 2.593vh;
+        color: #000;
+        letter-spacing: .12vh;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .button.svelte-1mx09j6.svelte-1mx09j6 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .main-div.svelte-kjxzsk{
+        width: 100%;
+        height: 120vh;
+        overflow: hidden;
+    }
+    .back-img.svelte-kjxzsk {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .men-img.svelte-kjxzsk {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 5.444vh;
+    }
+    .number-div.svelte-kjxzsk {
+        font-size: 55.556vh;
+        line-height: 50.556vh;
+        left: 0;
+        top: 0;
+    }
+    .virtual-head.svelte-kjxzsk {
+        letter-spacing: 2px;
+        left: 0;
+        top: 16vh;
+        padding-left: 15px;
+    }
+    .description-text.svelte-kjxzsk {
+        position: absolute;
+        left: 0;
+        top: 38.685vh;
+        width: 100%;
+       padding: 10px;
+    }
+}

@@ -6,78 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .item {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            border: 1px solid #cbd5e0;
-            font-size: 2.25rem;
-            height: 12rem;
-            margin: 2rem 0;
-            width: 100%;
+        body{
+            background:wheat;
         }
+       td{
+        width: 200px;
+        height: 50px;
+       }
     </style>
 </head>
 
 <body >
-   <div id="container" style="height: 100vh; width: 100%; overflow: auto; padding: 0 2rem">
-     <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>
-        <div class="item">8</div>
-        <div class="item">9</div>
+    <div>
+        <h1 style="text-align: center;">Registration Form</h1>
+    </div>
+   <div style="display: flex; justify-content: center;">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label for="#">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#">Email</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#">Phone</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#">Address</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#">Pin Code</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="" id="">
+                        <input type="radio" name="" id="">
+                        <input type="radio" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="#">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+            </table>
+        </form>
    </div>
-       
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-    const ele = document.getElementById('container');
-    ele.style.cursor = 'grab';
-
-    let pos = { top: 0, left: 0, x: 0, y: 0 };
-
-    const mouseDownHandler = function (e) {
-        ele.style.cursor = 'grabbing';
-        ele.style.userSelect = 'none';
-
-        pos = {
-            left: ele.scrollLeft,
-            top: ele.scrollTop,
-            // Get the current mouse position
-            x: e.clientX,
-            y: e.clientY,
-        };
-
-        document.addEventListener('mousemove', mouseMoveHandler);
-        document.addEventListener('mouseup', mouseUpHandler);
-    };
-
-    const mouseMoveHandler = function (e) {
-        // How far the mouse has been moved
-        const dx = e.clientX - pos.x;
-        const dy = e.clientY - pos.y;
-
-        // Scroll the element
-        ele.scrollTop = pos.top - dy;
-        ele.scrollLeft = pos.left - dx;
-    };
-
-    const mouseUpHandler = function () {
-        ele.style.cursor = 'grab';
-        ele.style.removeProperty('user-select');
-
-        document.removeEventListener('mousemove', mouseMoveHandler);
-        document.removeEventListener('mouseup', mouseUpHandler);
-    };
-
-    // Attach the handler
-    ele.addEventListener('mousedown', mouseDownHandler);
-});
-
-    </script>
 </body>
 
 </html>

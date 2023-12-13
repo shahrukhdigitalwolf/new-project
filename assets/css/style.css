@@ -133,7 +133,7 @@ p.svelte-mtggno.svelte-mtggno, h3.svelte-mtggno.svelte-mtggno {
 }
 .burger-menu{
     max-width: 100%;
-    width: 50px;
+    width: 60px;
     background-color: #ffffff73;
     border-radius: 5px;
     padding: 5px;
@@ -1867,8 +1867,475 @@ p.svelte-82o3ya {
   margin-left: 12vh;
 }
 
+/* ------------------------------------------------ */
 
-
+section.svelte-t6snpj{
+  display: flex;
+}
+.svelte-t7snpj{
+  display: flex;
+}
+.main-div.svelte-3gq7x.svelte-3gq7x {
+  display: flex;
+  position: relative;
+  font-family: Orbitron;
+}
+.first-div.svelte-3gq7x.svelte-3gq7x {
+  width: 96.111vh;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.svg-img-Wrapper.svelte-3gq7x.svelte-3gq7x {
+  position: absolute;
+  top: 0;
+  right: 7vh;
+  width: 38.889vh;
+  height: 100vh;
+}
+.first-div.svelte-3gq7x.svelte-3gq7x:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,0,0,0) (255,255,255);
+}
+.text-heading1.svelte-45gpx5{
+  font-size: 18.545vh;
+  font-weight: 800;
+  line-height: 20.564vh;
+  position: absolute;
+  top: 29vh;
+  left: -33vh;
+  color: #ffffff;
+  transform: rotate(-90deg);
+}
+.second-div.svelte-3gq7x.svelte-3gq7x {
+  width: 81.944vh;
+  height: 100vh;
+  position: relative;
+}
+.number-div.svelte-3gq7x.svelte-3gq7x {
+  font-size: 55.556vh;
+  color: #f4eeec80;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 55.556vh;
+  position: absolute;
+  left: 0;
+  top: 2.315vh;
+}
+.virtual-head.svelte-3gq7x.svelte-3gq7x {
+  font-weight: 700;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  left: 10.926vh;
+  top: 30.926vh;
+}
+.scroll-div.svelte-3gq7x.svelte-3gq7x {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 2.5vh;
+  right: 4vh;
+}
+.scroll-div.svelte-3gq7x .scroll-Text.svelte-3gq7x {
+  font-size: 1.481vh;
+  font-weight: 500;
+  line-height: 1.857vh;
+  font-family: Orbitron;
+  color: #000;
+  text-transform: capitalize;
+}
+.scroll-div.svelte-3gq7x .img.svelte-3gq7x {
+  margin-left: 1.778vh;
+  width: 6.185vh;
+  height: 0.741vh;
+  fill: #000;
+}
+.button.svelte-3gq7x.svelte-3gq7x {
+  position: absolute;
+  width: fit-content;
+  bottom: 7.2vh;
+  left: 13.1vh;
+  height: max(3.704vh,20px);
+  z-index: 2;
+}
+.description-text.svelte-3gq7x.svelte-3gq7x {
+  position: absolute;
+  top: 46.407vh;
+  width: 57.685vh;
+  padding: 2.87vh 2.315vh 0;
+  background-color: #fff;
+  border-radius: 0vh 4.63vh;
+  left: 107vh;
+  z-index: 1;
+}
+.description-text.svelte-3gq7x p.svelte-3gq7x {
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+}
+.third-div.svelte-3gq7x.svelte-3gq7x {
+  width: 97.222vh;
+  height: 100vh;
+  position: relative;
+  background-color: #f4eeec;
+}
+.welcome-Img.svelte-3gq7x.svelte-3gq7x {
+  border: 1.5vh solid white;
+  border-radius: 1.852vh;
+  position: absolute;
+  top: 11.315vh;
+  width: 118.426vh;
+  height: 72.963vh;
+  left: 136vh;
+}
+.before-img.svelte-3gq7x.svelte-3gq7x {
+  position: absolute;
+  top: 11vh;
+  width: 56.296vh;
+  height: 42.13vh;
+  left: 14.15vh;
+  filter: grayscale(100%);
+  transition-duration: 1s;
+}
+.before-img.svelte-3gq7x.svelte-3gq7x:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,0,0,0) (255,255,255);
+}
+.after-img.svelte-3gq7x.svelte-3gq7x {
+  position: absolute;
+  top: 0vh;
+  width: 118.426vh;
+  height: 72.963vh;
+  left: 0vh;
+  filter: none;
+  transition-duration: 1s;
+}
+.welcome-Img.svelte-3gq7x.svelte-3gq7x:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,0,0,0) (255,255,255);
+}
+.main-div.svelte-usfctj.svelte-usfctj {
+  display: flex;
+  position: relative;
+  font-family: Orbitron;
+}
+.left-div.svelte-usfctj.svelte-usfctj {
+  width: 71.296vh;
+  overflow: hidden;
+  transition-duration: 1s;
+}
+.left-div-img.svelte-usfctj.svelte-usfctj {
+  width: 71.296vh;
+  filter: grayscale(100%);
+  transition-duration: 1s;
+  scale: 1;
+}
+.left-div.svelte-usfctj.svelte-usfctj:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,0,0,0) (255,255,255);
+}
+.right-div.svelte-usfctj.svelte-usfctj {
+  width: 87.037vh;
+  position: relative;
+}
+.number-div.svelte-usfctj.svelte-usfctj {
+  font-size: 55.556vh;
+  color: #f4eeec80;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 55.556vh;
+  position: absolute;
+  left: 0;
+  top: 2.315vh;
+}
+.virtual-head.svelte-usfctj.svelte-usfctj {
+  font-weight: 700;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  left: 10.926vh;
+  top: 30.926vh;
+}
+.description-text.svelte-usfctj.svelte-usfctj {
+  position: absolute;
+  left: 10.926vh;
+  top: 57.685vh;
+  width: 57.685vh;
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+}
+.button.svelte-usfctj.svelte-usfctj {
+  position: absolute;
+  left: 10.926vh;
+  top: 80.37vh;
+}
+.mainButtonWrraper-artistPage.svelte-qbvi3.svelte-qbvi3 {
+  background-color: #0ff;
+  border: 0.092vh solid #00ffff;
+}
+.mainButtonWrraper-artistPage.svelte-qbvi3 h1.svelte-qbvi3 {
+  color: #000;
+}
+.main-div.svelte-41dkzr.svelte-41dkzr {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+.left-div.svelte-41dkzr.svelte-41dkzr {
+  width: 6.481vh;
+  height: 100vh;
+  background-color: #faf7f6;
+}
+.right-div.svelte-41dkzr.svelte-41dkzr {
+  height: 100vh;
+  width: 177.778vh;
+  background-image: url(../img/course/graphics/section3.png);
+  background-size: cover;
+  background-position: center;
+  font-family: Orbitron;
+  filter: grayscale(1);
+  transition-duration: 1.2s;
+}
+.right-div.svelte-41dkzr.svelte-41dkzr:hover {
+  filter: grayscale(0);
+}
+.number-div.svelte-41dkzr.svelte-41dkzr {
+  font-size: 55.556vh;
+  color: #f4eeec;
+  font-weight: 700;
+  position: absolute;
+  left: 14.259vh;
+  opacity: 50%;
+  top: 5.833vh;
+}
+.text1.svelte-41dkzr.svelte-41dkzr {
+  width: 83.426vh;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  left: 24.333vh;
+  top: 42.13vh;
+}
+.text2-div.svelte-41dkzr.svelte-41dkzr {
+  width: 57.685vh;
+  height: 40.519vh;
+  background-color: #fff;
+  border-radius: 3.704vh;
+  position: absolute;
+  top: 51.019vh;
+  left: 102.685vh;
+  padding: 4.074vh;
+  opacity: .9;
+}
+.text2-div.svelte-41dkzr p.svelte-41dkzr {
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+}
+.button.svelte-41dkzr.svelte-41dkzr {
+  position: absolute;
+  top: 80.722vh;
+  left: 21.815vh;
+}
+.main-div.svelte-1mx09j6.svelte-1mx09j6 {
+  height: 100vh;
+  width: 165.37vh;
+  position: relative;
+}
+.image.svelte-1mx09j6.svelte-1mx09j6 {
+  position: absolute;
+  left: 4.074vh;
+  width: 81.481vh;
+}
+.number-div.svelte-1mx09j6.svelte-1mx09j6 {
+  font-size: 55.556vh;
+  color: #f4eeec;
+  font-weight: 700;
+  position: absolute;
+  left: 52.407vh;
+  opacity: 50%;
+  line-height: 55.556vh;
+}
+.virtual-head.svelte-1mx09j6.svelte-1mx09j6 {
+  font-weight: 700;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  left: 67.963vh;
+  top: 24.352vh;
+}
+.text2-div.svelte-1mx09j6 p.svelte-1mx09j6 {
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+  position: absolute;
+  left: 89.259vh;
+  top: 46.481vh;
+  width: 66.019vh;
+}
+.button.svelte-1mx09j6.svelte-1mx09j6 {
+  position: absolute;
+  top: 85vh;
+  left: 89.259vh;
+}
+.main-div.svelte-kjxzsk {
+  width: 195.556vh;
+  height: 100vh;
+  background-color: #59e7f1;
+  position: relative;
+  font-family: Orbitron;
+}
+.back-img.svelte-kjxzsk {
+  width: 98.333vh;
+  height: 68.333vh;
+  position: absolute;
+  top: 0;
+  right: 10.463vh;
+}
+.men-img.svelte-kjxzsk {
+  width: 107.87vh;
+  height: 96.852vh;
+  position: absolute;
+  bottom: 0;
+  right: 4.444vh;
+}
+.number-div.svelte-kjxzsk {
+  font-size: 55.556vh;
+  color: #ffffff4d;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 55.556vh;
+  position: absolute;
+  left: 8.889vh;
+  top: 2.315vh;
+}
+.virtual-head.svelte-kjxzsk {
+  font-weight: 700;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: .25vh;
+  position: absolute;
+  left: 24.444vh;
+  top: 29vh;
+}
+.description-text.svelte-kjxzsk {
+  position: absolute;
+  left: 15.741vh;
+  top: 55.685vh;
+  width: 73.963vh;
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+}
+.button.svelte-kjxzsk {
+  position: absolute;
+  left: 15.741vh;
+  top: 84.167vh;
+}
+.main-div.svelte-hzd526 {
+  position: relative;
+  width: 165.37vh;
+  background-color: #fff;
+  font-family: Orbitron;
+  height: 100vh;
+}
+.number-div.svelte-hzd526 {
+  font-size: 55.556vh;
+  color: #f4eeec80;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 55.556vh;
+  position: absolute;
+  left: 8.148vh;
+}
+.virtual-head.svelte-hzd526 {
+  font-weight: 700;
+  font-size: 5.556vh;
+  line-height: 5.556vh;
+  text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  left: 23.704vh;
+  top: 25.093vh;
+}
+.description-text.svelte-hzd526 {
+  position: absolute;
+  right: 4.907vh;
+  top: 9.815vh;
+  width: 72.963vh;
+  font-size: 1.852vh;
+  font-weight: 400;
+  line-height: 2.593vh;
+  color: #000;
+  letter-spacing: .12vh;
+}
+.button.svelte-hzd526 {
+  position: absolute;
+  right: 11.907vh;
+  top: 46.019vh;
+}
+.sound.svelte-hzd526 {
+  position: absolute;
+  bottom: 0;
+  width: 165.37vh;
+}
+.sound-vec.svelte-hzd526 {
+  position: absolute;
+  bottom: 2.5vh;
+  width: 53.463vh;
+  left: 54.1vh;
+  animation: svelte-hzd526-move 1.2s infinite;
+}
+@keyframes svelte-hzd526-move{
+  0% {
+    transform: scale(1.03);
+}
+100% {
+    transform: scale(1);
+}
+}
 
 /* ------------------
 ##Button 1
