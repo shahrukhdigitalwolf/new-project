@@ -924,6 +924,7 @@ svg text {
     background-color: #000;
     height: 100vh;
     padding-left: 5.648vh;
+    padding-right: 5.648vh;
     z-index: 8;
     position: relative;
   }
