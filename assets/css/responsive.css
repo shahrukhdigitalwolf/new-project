@@ -407,6 +407,13 @@
         width: 100%;
         margin-top:0;
     }
+    .last-section {
+        padding-left: 2.648vh;
+        padding-right: 2.648vh;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
 
 }
 

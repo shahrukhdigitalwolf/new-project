@@ -51,3 +51,12 @@ var item = document.getElementById("MAIN");
     // Attach the handler
     ele.addEventListener('mousedown', mouseDownHandler);
 });
+
+
+
+$(window).on('load', function() {
+    setTimeout(()=>{
+        $('#popup1').modal('show');
+    },5000)
+    
+});

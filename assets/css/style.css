@@ -866,7 +866,7 @@ svg text {
     background-color: #f4eeec;
     padding-top: 18.519vh;
     padding-left: 3.426vh;
-    padding-right: 18.519vh;
+    padding-right: 0.519vh;
     display: flex;
   }
   .img-div{
@@ -899,13 +899,13 @@ svg text {
   }
 
   .img-div:nth-child(1):hover .img-css img{
-    transform: scale(1.05) translate(3vh,-1vh);
+    transform: scale(1.15) translate(-35vh, -1vh);
   }
   .img-div:nth-child(2):hover .img-css img{
-    transform: scale(1.05) translate(3vh,-1vh);
+    transform: scale(1.15) translate(-35vh, -1vh);
   }
   .img-div:nth-child(3):hover .img-css img{
-    transform: scale(1.05) translate(3vh,-1vh);
+    transform: scale(1.15) translate(-35vh, -1vh);
   }
 
   .text-div.svelte-1g8ul19.svelte-1g8ul19 {
@@ -916,7 +916,7 @@ svg text {
     z-index: 10;
   }
   .number.svelte-1g8ul19.svelte-1g8ul19 {
-    font-size: 2.778vh;
+    font-size: 2.178vh;
     color: #000;
   }
 
@@ -929,10 +929,10 @@ svg text {
     position: relative;
   }
   .keep{
-    width: 91.204vh;
-    font-size: 1.111vh;
+    width: 49.204vh;
+    font-size: 1.611vh;
     color: #fff;
-    margin-top: 18.519vh;
+    margin-top: 10.519vh;
     text-transform: capitalize;
   }
   .community h4{
@@ -2402,12 +2402,25 @@ section.svelte-t6snpj{
 }
 
 .directors{
+  background-color: antiquewhite;
+  position: relative;
   padding-top: 8pc;
   padding-bottom: 8pc;
   position: relative;
   overflow: hidden;
-  background-color: transparent;
-    background-image: linear-gradient(180deg,#e5edff47 0%,#F7F7FA00 100%);
+  z-index: 20;
+}
+.directors::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/bg/bg654bb.jpg);
+  background-size: cover;
+  background-position: center center;
+  opacity: .5;
 }
 .directors-inner{
   position: relative;
@@ -2434,9 +2447,11 @@ section.svelte-t6snpj{
   height: 100%;
 }
 .heading-director{
+  position: relative;
   text-align: center;
   font-weight: 700;
   padding-bottom: 50px;
+  z-index: 20;
 }
 .dir-left-div1{
   padding: 10px;
@@ -2578,4 +2593,119 @@ section.svelte-t6snpj{
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 600;
+}
+
+
+
+
+.login-box {  
+  background: linear-gradient(#212121, #212121) padding-box, linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  width: 100%;
+  height: 47vh;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box .user-box {
+  position: relative;
+  height: 8vh;
+  width: 100%;
+}
+
+.login-box .user-box input {
+  max-width: 100%;
+  width: 40vh;
+  height: 5vh;
+  padding: 10px 0;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 1.83vh;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #bdb8b8;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 15px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03f40f;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03f40f,
+              0 0 25px #03f40f,
+              0 0 50px #03f40f,
+              0 0 100px #03f40f;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(1) {
+  bottom: 2px;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03f40f);
+  animation: btn-anim1 2s linear infinite;
+}
+.social-div-main{
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+  height: 23vh;
+}
+.social-div{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  width: 20vh;
+  height: 2vh;
 }
